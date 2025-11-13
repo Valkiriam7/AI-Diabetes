@@ -237,8 +237,8 @@ Este sistema es una **herramienta de apoyo** para la evaluación de riesgo de di
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@Valkiriam7](https://github.com/Valkiriam7)
-- Email: jpablo.montoya1@udea.edu.co
+- GitHub: [@Valkiriam7](https://github.com/Valkiriam7)[@techia976-ai](https://github.com/techia976-ai)
+- Email: jpablo.montoya1@udea.edu.co & alejandra10lt@gmail.com
 
 ## 🙏 Agradecimientos
 
