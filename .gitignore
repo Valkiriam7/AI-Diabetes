@@ -118,3 +118,6 @@ $RECYCLE.BIN/
 # Logs
 *.log
 logs/
+
+# Directorio temporal del análisis de repo remoto
+tmp_repo_check/
