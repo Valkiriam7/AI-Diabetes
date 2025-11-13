@@ -188,11 +188,30 @@ El dataset contiene aproximadamente **250,000 registros** de pacientes con las s
 - **Origen**: Encuesta de salud pública
 - **Preprocesamiento**: Limpieza, transformación de edad, selección de features
 
-## 🔬 Próximos Pasos
+## � Despliegue
 
-- [ ] Desarrollo de interfaz web con Streamlit/Flask
-- [ ] Implementación de API REST para predicciones
-- [ ] Despliegue en la nube (AWS/Azure/GCP)
+El proyecto incluye archivos de configuración para despliegue rápido en múltiples plataformas:
+
+- **Render** (Recomendado): Ver [DEPLOY.md](DEPLOY.md) para instrucciones paso a paso
+- **Heroku**: Usa `Procfile` y `requirements.txt` para deploy automático
+- **Docker**: `Dockerfile` incluido para containerización
+- **Streamlit Cloud**: Para desplegar la interfaz `app_front.py`
+
+### Quick Start - Despliegue en Render
+1. Push tu código a GitHub (ya hecho ✅)
+2. Ve a https://render.com
+3. Crea un nuevo Web Service
+4. Conecta tu repo `Valkiriam7/AI-Diabetes`
+5. Start command: `gunicorn app_api:app`
+6. ¡Deploy! 🎉
+
+📖 **Guía completa de despliegue**: [DEPLOY.md](DEPLOY.md)
+
+## �🔬 Próximos Pasos
+
+- [x] Desarrollo de interfaz web con Streamlit (`app_front.py`)
+- [x] Implementación de API REST para predicciones (`app_api.py`)
+- [ ] Despliegue en la nube (en progreso - ver DEPLOY.md)
 - [ ] Análisis de importancia de features con SHAP
 - [ ] Validación con datos de otras regiones geográficas
 - [ ] Incorporación de más variables clínicas

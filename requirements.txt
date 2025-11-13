@@ -21,6 +21,11 @@ notebook>=7.0.0
 ipykernel>=6.25.0
 
 # Utilidades adicionales (opcional)
-# streamlit>=1.28.0  # Para interfaz web futura
-# flask>=3.0.0       # Para API REST futura
 # shap>=0.42.0       # Para interpretabilidad del modelo
+
+# Web frameworks (ya incluidos arriba)
+flask>=3.0.0
+streamlit>=1.28.0
+
+# Para producción (opcional - recomendado para despliegue)
+gunicorn>=21.0.0
